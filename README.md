@@ -71,6 +71,7 @@ imagem = ""  #imagem do palestrante, apenas o nome da imagem... deve estar em st
 
 `data/patrocinio/beneficios/banners.toml`
 ```
+nome = "banners" #nome do beneficio, será usado como chave nas categorias de patrocinio
 #descrição do benefício
 descricao = "Oportunidade de exibição do logotipo da empresa no site, cartazes e banners (tamanho relativo)"
 ```
@@ -80,9 +81,9 @@ descricao = "Oportunidade de exibição do logotipo da empresa no site, cartazes
 nome = "bronze" #nome da categoria de patrocinio
 altura = "81px" #altura da imagem dos patrocinadores dessa categoria
 largura = "162px" #largura da imagem dos patrocinadores dessa categoria
-cota = "R$ 500,00" #valor da cota de patrocinio
+cota = "500" #valor da cota de patrocinio (ex: para R$ 500,00 colocar "500")
 
-#os próximos campos são gerados dinamicamente, tendo como "chave" o nome dos arquivos de definição dos data templates em data/patrocinio/beneficios
+#os próximos campos são gerados dinamicamente, tendo como "chave" o nome dos beneficios
 quantidade = "ilimitado"
 banners = "1/2U"
 ```
