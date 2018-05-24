@@ -109,6 +109,8 @@ atividade = "Abertura" #nome da atividade
 #blablabla"""
 descricao = "Momento do discurso de abertura do evento."
 palestrante = "" #nome do palestrante
+slides = "" #url para os slides
+gravacao = "" #url para a gravação da palestra
 
 ```
 
