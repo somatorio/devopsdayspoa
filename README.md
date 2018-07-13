@@ -29,6 +29,7 @@ facebook = "nao-existe" #para https://www.facebook.com/nao-existe colocar apenas
 quando = "14 de Novembro<br>**Atenção: Não é um evento real! Apenas uma demonstração!**"
 onde = "Silo DevOps<br>Rua CAMS, 3464<br>ICE Ville"
 quanto = "Em **breve** mais *informações*"
+linkcalendario = "" #Link para o calendário no google (instruções para gerar aqui https://support.google.com/calendar/answer/41207?visit_id=1-636671030159804851-2637990487&rd=1)
 
 #latitude e longitude podem ser pegos no google maps mesmo :)
 #o mapa irá ficar centralizado nessas coordenadas E irá colocar o marcador exatamente sobre elas
